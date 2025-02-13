@@ -1,7 +1,6 @@
 body{
     background-image: url(img/effilel\ tower.jpg);
-   
-    
+    height: 2250px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -61,16 +60,19 @@ position: fixed;
     size: 400px;
 }
 .travel{
-    position: absolute;
+    position: relative;
     background-color: azure; 
     color:black;
-    top:100px; 
-    padding: 10px; 
+   top:100px;
+    margin-bottom: 150px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 50px;
 }
 .travel img{
     height: 100px;  
     float: left; 
-    padding: 10px;
+    padding: 15px;
 }
 #sch{
     position: fixed;
@@ -83,24 +85,73 @@ position: fixed;
 }
 .popular
 {
-    position: relative;
-    top:250px;
+   position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 20px;   
+   
+}
+.popular h3{
+    padding: 100px;
+    background-color: #30419f;
+    color: aliceblue;
+    }
+.ofh{
+    text-align:center;
+    background-color:  whitesmoke ;
+    border-radius: 10px;
     padding: 5px;
-    background-image: url(img/flight.jpg);
-    background-repeat: no-repeat;
-   background-size: cover;
+    width:fit-content;
+    margin: 20px auto;
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px;
+    padding: 50px;
+}
+.offer div{
+   width: 350px;
+  text-align: center;
+  color: darkblue;
+}
+.offer h1{
+    background-color :plum;
     border-radius: 30px;
-    align-content: center;
 }
-.popular img{
-    height: 250px;
+.offer p{
+    background-color: azure;
+    width: fit-content;
+    margin-left:130px;
+}
+.userex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.userex h1{
     padding-left: 50px;
-
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width:fit-content;
+    color: blue;
 }
-.popular p{
-    padding-left: 200px;
-    font-weight: bold;
-    color: white;
-    padding: 40px;
-    float: left;
+.contact-container 
+{
+            text-align: center;
+            margin-top: 50px;
+}
+ .contact-container a
+{
+            text-decoration: none;
+            margin: 10px;
+            font-size: 24px;
+            color: #333;
+}
+.contact-container a:hover
+{
+            color: #007bff;
 }
