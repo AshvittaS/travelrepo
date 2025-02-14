@@ -112,6 +112,10 @@ position: fixed;
     gap: 40px;
     padding: 50px;
 }
+.offer div:hover{
+    font-size:15px;
+}
+
 .offer div{
    width: 350px;
   text-align: center;
