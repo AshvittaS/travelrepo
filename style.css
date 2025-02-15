@@ -134,6 +134,7 @@ position: fixed;
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
+    padding: 20px;
 }
 .userex h1{
     padding-left: 50px;
@@ -158,4 +159,12 @@ position: fixed;
 .contact-container a:hover
 {
             color: #007bff;
+}
+.save{
+    background-image: url(img/travel3.jpg);
+    padding-bottom: 200px;
+    padding-top: 40px;
+    background-size: 1300px 500px;
+    background-repeat: no-repeat;
+    
 }
